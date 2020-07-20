@@ -1,0 +1,313 @@
+/*================================================================================
+	Item Name: Robust - Responsive Admin Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+body{
+	font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+	font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif !important;
+}
+footer h1, footer h2, footer h3,footer  h4, footer h5, footer h6{
+	color:#ffffff;
+}
+.error
+{
+	color:#da4453;
+}
+.search-area
+{
+	width:98%;
+	height:230px;
+	background:#CAE6F4;
+}
+.carousel-item img{
+	/*max-height:280px;*/
+	width:100% !important;
+}
+.carousel-caption
+{
+	background:rgba(0,0,0,0.5);
+	width:100% !important;
+	left:0px !important;
+	right:0px !important;
+	bottom:0px !important;
+	padding-left:20px;
+}
+.carousel-caption h3
+{
+	color:#ffffff;
+}
+.align-center
+{
+	text-align:center;
+}
+.contact-form
+{
+	background-color:#ffffff;
+	border-radius:5px;
+	padding:20px;
+}
+.privacy h1, .privacy h2,  .privacy h3 
+{
+	color:#267FB1;
+}
+.privacy
+{
+	width:80%;
+	margin:0 auto;
+	text-align:justify;
+}
+.menu{
+	padding:0px;
+	margin:0px;
+}
+.menu li
+{
+	list-style: none;
+	color:#ffffff;
+}
+.menu li a{
+	color:#dfdfdf;
+	font-size:12px;
+}
+.menu li a:hover{
+	color:#dfdfdf;
+	font-size:12px;
+	text-decoration: underline;
+}
+.filter_white {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+  }
+  .social_icon
+  {
+	  width:20px;
+  }
+.loadingIcon
+{
+	
+	position: absolute;
+	width:50px;
+	height:50px;
+	left:0px; 
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 50px;
+	top:50% !important;
+}
+.crosstext
+{
+	text-decoration: line-through;
+}
+.select2{
+	width:100% !important;
+}
+#queryInput
+{
+	height:50px;
+	margin:0 auto;
+	font-size:13px;
+	width:500px !important;
+}
+
+.ui-autocomplete-row
+{
+	height:40px;
+}
+.ui-autocomplete-row a
+{
+	width:100%;
+	display:block;
+	color:#999;
+
+}
+.rounded-circle
+{
+	border:thin solid #dfdfdf;
+}
+.ui-autocomplete-row a:hover, .ui-autocomplete-row:hover, .ui-autocomplete-row a:focus
+{
+	background:#f1f1f1 !important;
+	color:#999;
+}
+.cat{
+	color:#479FC7;
+}
+#queryInput::placeholder{
+	color:#aaa;
+	font-size:13px;
+}
+.form-control::placeholder{
+	color:#999 !important;
+}
+.searchform
+{
+	padding-top:30px;
+	padding-left:20px;
+	padding-right:20px;
+	width:600px;
+}
+#searchRegion
+{
+	padding-top:50px;
+	width:250px;
+}
+.password-field{
+	border: thin solid #ccc;	
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding-left:7px;
+}
+input[type='password'] {
+    margin-bottom: 13px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.password-field input {
+	font-size:16px;
+    border: none;
+    width: 86%;
+    margin: 0;
+	padding: 0;
+}
+.password-field button {
+    border: none;
+	width: 12%;
+	padding-left:10px;
+    background: rgba(0,0,0,0);
+}
+.profile-image
+{
+	display:block;
+	position: relative;
+	background:#ffffff;
+	-webkit-box-shadow: 0px 11px 11px -6px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 11px 11px -6px rgba(0,0,0,0.57);
+box-shadow: 0px 11px 11px -6px rgba(0,0,0,0.57);
+}
+.ui-menu
+{
+	max-width:400px !important;
+}
+.overlayDiv
+{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+	background:rgba(0,0,0,0.4);
+}
+#navLoading
+{
+	font-size:20px;
+	text-align:center;
+	min-height:150px;
+	
+    vertical-align: middle;
+
+}
+.profil-cover-details
+{
+	margin-top:-90px;
+}
+.profil-cover-details .card-title
+{
+	text-shadow: #fff 1px 1px;
+}
+.editphoto
+{
+	font-size:18px;
+	color:#ffffff;
+	position: absolute;
+	bottom:20px;
+	right:20px;
+}
+#upload-demo{
+	width: 250px;
+	height: 250px;
+  padding-bottom:25px;
+}
+label.cabinet{
+	display: block;
+	cursor: pointer;
+}
+
+label.cabinet input.file{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  margin-top:-30px;
+}
+.fitModal
+{
+	height:500px;
+}
+.backLink
+{
+	font-size:16px;
+}
+.stateView a{
+	color:#333;
+}
+#citiesArea{
+	background:#dfdfdf;
+	padding:5px;
+}
+.locationLink
+{
+	font-size:12px;
+}
+
+.footerLayer
+{
+	padding-top:30px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+}
+.footer{
+	padding:0px !important;
+}
+.firstLayer
+{
+	background-color:#282828;
+}
+.secondLayer
+{
+	background-color:#323232;
+}
+
+@media(max-width:600px)
+{
+	.fitModal
+	{
+		height:400px;
+	}
+	.fixed-top
+	{
+		position:relative;
+	}
+	html body.fixed-navbar
+	{
+		padding-top:0px;
+	}
+	.profil-cover-details
+	{
+		margin-top:-90px;
+	}
+}
